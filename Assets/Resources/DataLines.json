@@ -1,0 +1,180 @@
+{
+    "items":
+    [
+        {
+            "text": "Type?: \"Hello, world!\"",
+            "timeToMove": 9.0,
+            "complexity": 1,
+            "type": "CodeLine",
+            "answers": ["string"]
+        },
+        {
+            "text": "Type?: 1.9f",
+            "timeToMove": 9.0,
+            "complexity": 1,
+            "type": "CodeLine",
+            "answers": ["float"]
+        },
+        {
+            "text": "Type?: 1",
+            "timeToMove": 9.0,
+            "complexity": 1,
+            "type": "CodeLine",
+            "answers": ["int"]
+        },
+        {
+            "text": "Type?:  [0,1,2]",
+            "timeToMove": 9.0,
+            "complexity": 2,
+            "type": "CodeLine",
+            "answers": ["array"]
+        },
+        {
+            "text": "Type?:  false",
+            "timeToMove": 9.0,
+            "complexity": 2,
+            "type": "CodeLine",
+            "answers": ["bool"]
+        },
+        {
+            "text": "Type?: Sum()",
+            "timeToMove": 9.0,
+            "complexity": 3,
+            "type": "CodeLine",
+            "answers": ["function"]
+        },
+        {
+            "text": "Type?: Subtract()",
+            "timeToMove": 9.0,
+            "complexity": 3,
+            "type": "CodeLine",
+            "answers": ["function"]
+        },
+        {
+            "text": "Error 42 IndexOutOfRangeException",
+            "timeToMove": 9.0,
+            "complexity": 5,
+            "type": "Error",
+            "answers": ["array", "index", "recompile"]
+        },
+        {
+            "text": "Error 78 NullReferenceException: Object reference not set to an instance of an object",
+            "timeToMove": 9.0,
+            "complexity": 6,
+             "type": "Error",
+            "answers": ["debug, object", "instance", "recompile"]
+        },
+        {
+            "text": "Warning 15 There are 2 event systems in the scene. Please ensure there is always exactly one event system in the scene",
+            "timeToMove": 9.0,
+            "complexity": 5,
+            "type": "Warning",
+            "answers": ["scene", "system"]
+        },
+        {
+            "text": "Warning 33 NewBehaviourScript.myField is never assigned to, and will always have its default value null",
+            "timeToMove": 9.0,
+            "complexity": 5,
+            "type": "Warning",
+            "answers": ["remove", "delete"]
+        },
+        {
+            "text": "Type?: { 'key': 'value' }",
+            "timeToMove": 9.0,
+            "complexity": 2,
+            "type": "CodeLine",
+            "answers": ["dictionary"]
+        },
+        {
+            "text": "Type?: class Enemy { }",
+            "timeToMove": 9.0,
+            "complexity": 3,
+            "type": "CodeLine",
+            "answers": ["class"]
+        },
+        {
+            "text": "Type?: class Hero { }",
+            "timeToMove": 9.0,
+            "complexity": 3,
+            "type": "CodeLine",
+            "answers": ["class"]
+        },
+        {
+            "text": "Type?: 'c'",
+            "timeToMove": 9.0,
+            "complexity": 1,
+            "type": "CodeLine",
+            "answers": ["char"]
+        },
+        {
+            "text": "Type?: Divide()",
+            "timeToMove": 9.0,
+            "complexity": 2,
+            "type": "CodeLine",
+            "answers": ["function"]
+        },
+        {
+            "text": "Error 108 InvalidOperationException: The object is currently in use elsewhere",
+            "timeToMove": 9.0,
+            "complexity": 4,
+            "type": "Error",
+            "answers": ["debug", "object", "recompile"]
+        },
+        {
+            "text": "Warning 20 Referenced script on this Behaviour (Game Object '') is missing!",
+            "timeToMove": 9.0,
+            "complexity": 3,
+            "type": "Warning",
+            "answers": ["script", "missing"]
+        },
+        {
+            "text": "Warn40 The referenced script on this Behaviour (Game Object '') is missing!",
+            "timeToMove": 9.0,
+            "complexity": 3,
+            "type": "Warning",
+            "answers": ["script", "missing"]
+        },
+        {
+            "text": "Error 220 StackOverflowException: The requested operation caused a stack overflow",
+            "timeToMove": 9.0,
+            "complexity": 5,
+            "type": "Error",
+            "answers": ["stack", "overflow", "recursion", "function", "limit"]
+        },
+        {
+            "text": "Error 501 OutOfMemoryException: Insufficient memory to continue the execution of the program",
+            "timeToMove": 9.0,
+            "complexity": 5,
+            "type": "Error",
+            "answers": ["memory", "release", "garbage", "collection"]
+        },
+        {
+            "text": "Warning 110 Unreachable code detected",
+            "timeToMove": 9.0,
+            "complexity": 6,
+            "type": "Warning",
+            "answers": ["unreachable", "code", "condition", "logic"]
+        },
+        {
+            "text": "Warning 215 Variable declared but never used",
+            "timeToMove": 9.0,
+            "complexity": 6,
+            "type": "Warning",
+            "answers": ["variable", "unused", "remove"]
+        },
+        {
+            "text": "Error 911 DivideByZeroException: Attempted to divide by zero",
+            "timeToMove": 9.0,
+            "complexity": 7,
+            "type": "Error",
+            "answers": ["division", "zero", "math", "undefined"]
+        },
+        {
+            "text": "Warning 301 Assignment made to same variable; did you mean to assign something else?",
+            "timeToMove": 9.0,
+            "complexity": 7,
+            "type": "Warning",
+            "answers": ["assignment", "variable", "mistake"]
+        }
+    ]
+}
