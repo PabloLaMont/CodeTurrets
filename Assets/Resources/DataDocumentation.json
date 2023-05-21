@@ -7,43 +7,55 @@
         },
         {
             "mainText": "Error 42 IndexOutOfRangeException occurs when you attempt to access an element at an index that does not exist within the array, list or any other data structure that uses indexing.",
-            "answers": ["Error 42, array", "index", "recompile"]
+            "answers": ["Error 42", "array", "index", "recompile"]
         },
         {
             "mainText": "Error 78 NullReferenceException: Object reference not set to an instance of an object occurs when you try to access a member—for instance, a method or a property—on a variable that currently contains null.",
-            "answers": ["Error 78, debug, object", "instance", "recompile"]
+            "answers": ["Error 78", "debug", "object", "instance", "recompile"]
         },
         {
             "mainText": "Warning 15 There are 2 event systems in the scene. Please ensure there is always exactly one event system in the scene",
-            "answers": ["Warning 15, scene", "system, save"]
+            "answers": ["Warning 15", "scene", "system, save"]
         },
         {
             "mainText": "Warning 33 NewBehaviourScript.myField is never assigned to, and will always have its default value null",
-            "answers": ["Warning 33, remove", "delete"]
+            "answers": ["Warning 33", "remove", "delete"]
         },
         {
             "mainText": "Error 220 StackOverflowException: The requested operation caused a stack overflow",
-            "answers": ["Error 220, stack", "overflow", "recursion", "function", "limit"]
+            "answers": ["Error 220", "stack", "overflow", "recursion", "function", "limit"]
         },
         {
             "mainText": "Error 501 OutOfMemoryException: Insufficient memory to continue the execution of the program",
-            "answers": ["Error 501, memory", "release", "garbage", "collection"]
+            "answers": ["Error 501", "memory", "release", "garbage", "collection"]
         },
         {
             "mainText": "Warning 110 Unreachable code detected",
-            "answers": ["Warning 110, unreachable", "code", "condition", "logic"]
+            "answers": ["Warning 110", "unreachable", "code", "condition", "logic"]
         },
         {
             "mainText": "Warning 215 Variable declared but never used",
-            "answers": ["Warning 215, variable", "unused", "remove"]
+            "answers": ["Warning 215", "variable", "unused", "remove"]
         },
         {
             "mainText": "Error 911 DivideByZeroException: Attempted to divide by zero",
-            "answers": ["Error911, division", "zero", "math", "undefined"]
+            "answers": ["Error 911", "division", "zero", "math", "undefined"]
         },
         {
             "mainText": "Warning 301 Assignment made to same variable; did you mean to assign something else?",
-            "answers": ["Warning 301, assignment", "variable", "mistake"]
+            "answers": ["Warning 301", "assignment", "variable", "mistake"]
+        },
+        {
+            "mainText": "Warning 40 The referenced script on this Behaviour (Game Object '') is missing!",
+            "answers": ["Warning 40", "script", "missing"]
+        },
+        {
+            "mainText": "Warning 20 Referenced script on this Behaviour (Game Object '') is missing!",
+            "answers": ["Warning 20", "script", "missing"]
+        },
+        {
+            "mainText": "Error 108 InvalidOperationException: The object is currently in use elsewhere",
+            "answers": ["Error 108","debug", "object", "recompile"]
         }
     ]
 }

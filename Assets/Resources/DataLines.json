@@ -128,7 +128,7 @@
             "answers": ["script", "missing"]
         },
         {
-            "text": "Warn40 The referenced script on this Behaviour (Game Object '') is missing!",
+            "text": "Warning 40 The referenced script on this Behaviour (Game Object '') is missing!",
             "timeToMove": 9.0,
             "complexity": 3,
             "type": "Warning",
