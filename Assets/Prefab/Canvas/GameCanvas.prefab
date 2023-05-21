@@ -435,6 +435,7 @@ MonoBehaviour:
   codeLinePool: {fileID: 0}
   cpus:
   - {fileID: 0}
+  gpus: []
 --- !u!1 &7046472033714312346
 GameObject:
   m_ObjectHideFlags: 0
@@ -904,7 +905,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7046472034316863139}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &7046472034387734797
 GameObject:
   m_ObjectHideFlags: 0
@@ -1288,7 +1301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7fd4b52993fddc459a783b252c8c906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelIncreaseTime: 15
+  levelIncreaseTime: 50
   timerBetweenLevels: 10
   versionText: {fileID: 7046472034408266676}
   maxComplexityIncreasePerLevel: 1
@@ -1773,7 +1786,7 @@ MonoBehaviour:
   levelManager: {fileID: 0}
   spawnPoint: {fileID: 7046472035323940810}
   maxComplexity: 1
-  timeBetweenSpawns: 3
+  timeBetweenSpawns: 9
   currentPool: []
 --- !u!1 &7046472034743011257
 GameObject:
@@ -2656,7 +2669,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 485, y: -374.55}
+  m_AnchoredPosition: {x: 485, y: -300}
   m_SizeDelta: {x: 950, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1016129318441757733
@@ -2775,6 +2788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coolerTurretPrefab: {fileID: 3400552162284589920, guid: e5a71de3b4436b446bd81183b23650da, type: 3}
   maxNumberOfTurrets: 3
+  coolerTurrets: []
 --- !u!224 &8131108252444415963 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 9137095400449571838, guid: 00d75543babf48e4583816aecbd7d6bd, type: 3}
@@ -2896,6 +2910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gpuTurretPrefab: {fileID: 1280345728681605201, guid: c5ce01f7846b7564eb06c53cd01f9acb, type: 3}
   maxNumberOfTurrets: 3
+  gpuTurrets: []
 --- !u!224 &6117221590953540625 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8500867929720288979, guid: 27f94876a9081cd4bbbd3c202db3c720, type: 3}
@@ -3022,3 +3037,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cpuTurretPrefab: {fileID: 9132854007131860666, guid: 1fc5abbb21c82474e97c81d82da1ffbe, type: 3}
   maxNumberOfTurrets: 3
+  cpuTurrets: []

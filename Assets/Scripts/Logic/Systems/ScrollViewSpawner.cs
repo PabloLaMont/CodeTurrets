@@ -13,7 +13,7 @@ public class ScrollViewSpawner : MonoBehaviour
     public int maxComplexity = 1;
 
     private int objectsSpawnedSoFar = 0;
-    public float timeBetweenSpawns = 3;
+    public float timeBetweenSpawns = 9;
     private bool stopSpawning = false;
 
     private CodeLineDataCollection codeLineData;
@@ -61,7 +61,7 @@ public class ScrollViewSpawner : MonoBehaviour
             GameObject item = multiTypePool.GetItem(data.type);
             currentPool.Add(item);
 
-            Vector3 offset = new Vector3(0, objectsSpawnedSoFar * -40, 0);
+            Vector3 offset = new Vector3(0, -40, 0);
             item.transform.SetParent(spawnPoint, false);
             item.transform.localPosition = Vector3.zero + offset;
             item.transform.localScale = Vector3.one;
