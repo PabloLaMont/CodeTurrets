@@ -10,8 +10,11 @@ public class PlayerStats : MonoBehaviour
     public TMP_Text healthText;
     public TMP_Text moneyText;
 
+    private ScrollViewSpawner codeLineSpawner;
+
     private void Start()
     {
+        codeLineSpawner = FindObjectOfType<ScrollViewSpawner>();
         levelManager = FindObjectOfType<LevelManager>();
         UpdateUI();
     }
@@ -50,7 +53,10 @@ public class PlayerStats : MonoBehaviour
 
     public bool IsGameOver()
     {
-        return ProjectHealth <= 0;
+        codeLineSpawner.StopSpawning();
+        codeLineSpawner.ClearCodeLines();
+        GameOver.instance.Restart();
+        return ProjectHealth <= 0;       
     }
 
     public string GetHealthState()
