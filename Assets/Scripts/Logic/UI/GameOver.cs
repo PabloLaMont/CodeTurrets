@@ -23,7 +23,7 @@ public class GameOver : MonoBehaviour
 
     public void Restart() 
     {
-        StartCoroutine("Restart");
+        StartCoroutine("RestartRutine");
     }
 
     private IEnumerator RestartRutine()

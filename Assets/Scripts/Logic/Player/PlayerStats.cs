@@ -4,8 +4,8 @@ using TMPro;
 public class PlayerStats : MonoBehaviour
 {
     private LevelManager levelManager;
-    public int ProjectHealth { get; private set; } = 100;
-    public int MoneyAvailable { get; private set; } = 0;
+    public int ProjectHealth  = 100;
+    public int MoneyAvailable  = 0;
 
     public TMP_Text healthText;
     public TMP_Text moneyText;

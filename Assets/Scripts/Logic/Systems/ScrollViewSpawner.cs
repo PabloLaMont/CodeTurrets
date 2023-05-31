@@ -44,7 +44,9 @@ public class ScrollViewSpawner : MonoBehaviour
 
     private IEnumerator SpawnRoutine()
     {
-        while (!stopSpawning && !playerStats.IsGameOver())
+        yield return null;
+         
+        while (!stopSpawning && playerStats.ProjectHealth > 0)
         {
             yield return new WaitForSeconds(timeBetweenSpawns -= (levelManager.CurrentLevel/10));
             SpawnObject();
